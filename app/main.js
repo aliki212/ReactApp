@@ -1,8 +1,11 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import $ from "jquery"
-import Popper from "popper.js"
-import "bootstrap/dist/js/bootstrap.bundle.min"
+import React from "react";
+import { render } from "react-dom";
+import $ from "jquery";
+import Popper from "popper.js";
+// import "bootstrap/dist/js/bootstrap.css";
+// import 'bootstrap';
+//import "~bootstrap/scss/bootstrap";
+import './style.css'
 
 function BillySFirstComponent() {
   return (
@@ -37,4 +40,4 @@ function BillySFirstComponent() {
   )
 }
 
-ReactDOM.render(<BillySFirstComponent />, document.querySelector("#app"))
+render(<BillySFirstComponent />, document.querySelector("#app"))
