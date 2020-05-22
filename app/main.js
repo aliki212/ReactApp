@@ -5,12 +5,16 @@ import Popper from "popper.js";
 // import "bootstrap/dist/js/bootstrap.css";
 // import 'bootstrap';
 //import "~bootstrap/scss/bootstrap";
-import './style.css'
+import './style.css';
+import App from './src/App.js';
+import Carousel from './src/Carousel.js';
 
 function BillySFirstComponent() {
   return (
     <>
+      <App />
       <h1 className="text-warning">Hello Wonderland</h1>
+      <Carousel />
       <p>Here we will begin our app.</p>
       <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
         Launch demo modal
